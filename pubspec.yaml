@@ -1,0 +1,29 @@
+name: toku
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0" # ← updated (yours was ancient)
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.6.0 # ← ADDED (audio package)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/numbers/
+    - assets/images/family_members/
+    - assets/images/colors/
+    - assets/sounds/numbers/   # ← ADDED (audio folder)
